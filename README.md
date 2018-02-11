@@ -21,6 +21,6 @@ $ pip install -r requirements.txt
 
 # How to use?
 ```python3 igcloud [username]```
-_drink coffee and wait_
-_see the wordcloud of this user content_
+
+_Drink coffee, wait to see the IGCLOUD of this user's content._
 
