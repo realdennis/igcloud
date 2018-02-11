@@ -8,6 +8,10 @@
 ```
 IGCLOUD is a command-line application based on python3.
 
+All instagram posts content will be mining.
+
+And analyze by it, then render to wordcloud.
+
 # Example
 _I use the asian star jaychou for example_
 ![](https://raw.githubusercontent.com/realdennis/igcloud/master/example/jaychou.png)
