@@ -23,8 +23,12 @@ $ cd ./igcloud
 $ pip install -r requirements.txt
 ```
 
-# How to use?
-```python3 igcloud [username]```
+# Usage
+```
+$ python igcloud [username]
+$ python igcloud jaychou //for example
 
+```
 _Drink coffee, wait to see the IGCLOUD of this user's content._
+
 
