@@ -8,13 +8,19 @@
 ```
 IGCLOUD is a command-line application based on python3.
 
-  - _python3 igcloud [username]_
-  - _drink coffee and wait_
-  - _see the wordcloud of this user content_
+# Example
+_I use the asian star jaychou for example_
+![](https://raw.githubusercontent.com/realdennis/igcloud/master/example/jaychou.png)
 
-# How to install
+# Installation
 ```
 $ git clone https://github.com/realdennis/igcloud
 $ cd ./igcloud
 $ pip install -r requirements.txt
 ```
+
+# How to use?
+```python3 igcloud [username]```
+_drink coffee and wait_
+_see the wordcloud of this user content_
+
