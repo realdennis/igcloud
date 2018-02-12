@@ -13,7 +13,7 @@ All instagram posts content will be mining.
 And analyze by it, then render to wordcloud.
 
 # Example
-_I use the asian star jaychou for example_
+_I use the asian star jaychou(周杰倫) for example_
 ![](https://raw.githubusercontent.com/realdennis/igcloud/master/example/jaychou.png)
 
 # Installation
@@ -25,11 +25,11 @@ $ pip install -r requirements.txt
 
 # Usage
 ```
-$ python igcloud [username]
-$ python igcloud jaychou //for example
+$ python3 igcloud [username]
+$ python3 igcloud jaychou //for example
 
 ```
-_Drink coffee, wait to see the IGCLOUD of this user's content._
+
 
 #LICENSE
 MIT © 2018 realdennis
