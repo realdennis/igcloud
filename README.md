@@ -18,11 +18,12 @@ $ python3 igcloud jaychou //for example
 
 
 # Description
-IGCLOUD is a command-line application based on python3.
 
-All instagram posts content will be mining.
+igcloud is a command-line application based on python3.
 
-And analyze by it, then render to wordcloud.
+All of the user's posts content will be mining and analyze.  
+
+**Then render to wordcloud.**
 
 
 # Example
@@ -38,5 +39,5 @@ $ pip install -r requirements.txt
 ```
 
 
-#LICENSE
+LICENSE
 MIT © 2018 realdennis
