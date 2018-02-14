@@ -11,9 +11,11 @@
 # Usage
 ![](https://raw.githubusercontent.com/realdennis/igcloud/master/demo.gif)
 ```
-$ python3 igcloud [username]
-$ python3 igcloud jaychou //for example
+$ python3 igcloud.py [username]
+$ python3 igcloud.py jaychou //for example
 ```
+or
+`$ ./igcloud.py [username]`
 
 
 # Description
