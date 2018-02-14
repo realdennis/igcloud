@@ -1,4 +1,5 @@
 import json
+import time
 #import requests
 import urllib.request
 
@@ -9,6 +10,15 @@ def start(instagramID):
     url_host='https://www.instagram.com/'
     url_path = str(instagramID)+'/?__a=1&max_id='
 
+    try:
+        check = urllib.request.urlopen(url_host+url_path+max_id)
+    except Exception as Q:
+        try:
+            if(int(Q.getcode()/100)==4):
+                print('User not found')
+        except:
+            print('Please check your network status')
+        exit()
 
     while 1:
         try:
@@ -48,3 +58,4 @@ def start(instagramID):
         except Exception as Q:
             print(Q)
             print('Time out? Wait 10 seconds (Use Ctrl-c to KeyboardInterrupt)')
+            time.sleep(10)
