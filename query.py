@@ -1,6 +1,5 @@
 import json
 import time
-#import requests
 import urllib.request
 
 def start(instagramID):
@@ -23,13 +22,9 @@ def start(instagramID):
     while 1:
         try:
             url = url_host+url_path+max_id
-            #response = requests.get(url)#,headers=random_headers(),proxies=proxy)
-            #content = response.text
             request = urllib.request.Request(url=url)
             response = urllib.request.urlopen(request,timeout=5)
             res_body = response.read()
-            #content = json.load(response)
-#            j=json.loads(response)
             j=json.loads(res_body.decode("utf-8"))
             if j['user']['is_private'] != True:
                 items=j['user']['media']['nodes']
@@ -49,12 +44,9 @@ def start(instagramID):
 
                 stdout += ' Now query '+str(cc_count)+' posts '
                 print(stdout)
-                #print('Now query'+cc_count+'post'+'('+int(cc_count/j['user']['media']['count']*100)+'%)')
-                #print('('+int(cc_count/j['user']['media']['count']*100)+'%)')
             else:
-                print('100%! Wait for render')
+                print('100%! Wait for rendering')
                 return IGcontent
-                #print('完成',str(self.cc_count/items['count']),'%')
         except Exception as Q:
             print(Q)
             print('Time out? Wait 10 seconds (Use Ctrl-c to KeyboardInterrupt)')
