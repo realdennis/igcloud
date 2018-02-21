@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 import query
 import jieba
-import datetime
-import sys,os
+import sys
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
