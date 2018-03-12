@@ -1,5 +1,6 @@
 ![](https://raw.githubusercontent.com/realdennis/igcloud/master/banner.png)
 
+[中文文檔](https://github.com/realdennis/igcloud/blob/master/README%E4%B8%AD%E6%96%87.md)
 
 # Usage
 ![](https://raw.githubusercontent.com/realdennis/igcloud/master/demo.gif)
@@ -13,7 +14,7 @@ or
 
 # Description
 
-igcloud is a command-line application based on python3.
+igcloud is a command-line application based on Python3.
 
 All of the user's posts content will be mining and analyze.  
 
