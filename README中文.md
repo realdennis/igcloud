@@ -17,11 +17,11 @@ igcloud(ig文字雲) 是一個基於Python3的命令行應用
 
 程式會把指定使用者的所有文章內文爬下來 並作分析
 
-然後渲染為文字雲
+最後渲染為文字雲
 
 
 # 範例
-_我使用了這愛的偶像的Instagram(周杰倫) 作為示範_
+_我用了最愛的偶像的Instagram(周杰倫) 作為示範_
 ![](https://raw.githubusercontent.com/realdennis/igcloud/master/example/jaychou.png)
 
 
